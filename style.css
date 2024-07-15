@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    background-color: #141414;
+}
+.bg-dark {
+    background-color: #141414!important;
+}
+.navbar .navbar-brand img {
+    width: 100px;
+}
+.navbar .navbar-nav img {
+    width: 50px;
+}
+main {
+    height: 100vh;
+   }
+
+
+    
+
+.movie-row {
+    white-space: nowrap;
+}
+
+
+.movie-cards-container {
+    display: flex; 
+    height: 180px;
+}
+
+.movie-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 140px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.card-img-top {
+   object-fit: cover;
+}
+
